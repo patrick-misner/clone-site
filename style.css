@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(243, 243, 243);
+}
+
+img {
+  /* NOTE option two for image spill */
+  /* transform: translateY(11em);
+
+  /* NOTE option one for image spill */
+  /* position: absolute; */
+  /* top: 6em; */
+  /* border-radius: var(--borders); */
+  box-shadow: 0px 4px 12px rgba(8, 4, 25, 0.537);
+  filter: grayscale(.7);
+}
+
+
+.bg-blue {
+  
+  background: #3079AB;
+
+  color: white;
+
+}
+
+.bg-gray {
+  
+  background: #414141;
+
+  color: white;
+
+}
+
+.cursive-font{
+  font-family: cursive, Helvetica, sans-serif;
+}
